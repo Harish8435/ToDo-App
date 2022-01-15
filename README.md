@@ -1,4 +1,4 @@
-# Basic MERN Stack App
+# ToDo App using MERN Stack
 
 ### Front-End - React, Bootstrap
 
