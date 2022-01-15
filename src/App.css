@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #fbfbfb;
+}
+
+/* Home Page CSS */
+
+nav{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo{
+  font-size: 1.6rem;
+  background: -webkit-linear-gradient(#33ccff, #ff99cc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Home{
+  font-size: 1.3rem;
+  min-height: 80vh;
+}
+
+.inItem i{
+  font-size: 2rem;
+}
+
+.inItem input{
+  border-bottom: 2px solid #929292;
+}
+
+.ToDo_Div{
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 68vh;
+}
+
+.mainList{
+  width: 100%;
+  overflow-y: auto;
+}
+
+.ToDo_Div h1{
+  background-color: #200036c2;
+  color: white;
+  min-width: 100%;
+  text-align: center;
+}
+
+.ToDo_List{
+  list-style: none;
+}
+
+.ToDo_List li{
+  font-weight: 600;
+}
+
+.ToDo_List li:hover{
+  cursor: pointer;
+  color: #9e0275;
+}
+
+.ToDo_List i:hover{
+  cursor: pointer;
+  color: red;
+}
+
+/* Login and Register Page CSS */
+
+.main-div{
+  min-height: 100vh;
+}
+
+.login{
+  height: 48%;
+  width: 32%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.signUp{  
+  height: 64%;
+  width: 32%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width: 1010px) {
+  .login{
+    height: 68%;
+    width: 92%;
+  }
+
+  .signUp{  
+    height: 100%;
+    width: 92%;
+  }
+}
+
+h2{
+  background: -webkit-linear-gradient(#33ccff, #ff99cc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+i{
+  font-size: 1.3rem;
+}
+
+i:hover{
+  cursor: pointer;
+  color: #9e0275;
+}
+
+input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #929292;
+}
+
+.submit{
+  border: 1px solid #929292;
+  border-radius: 6px;
+  transition: all 0.4s;
+}
+
+.submit:hover{
+  border: 1px solid #9e0275;
+  color: #9e0275;
+}
+
+.switchLogin{
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.4s;
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select:none; 
+  user-select:none;
+  -o-user-select:none;
+}
+
+.switchLogin:hover{
+  color: #9e0275;
+  text-decoration: underline;
+}
