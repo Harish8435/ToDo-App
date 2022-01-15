@@ -6,7 +6,7 @@
 
 To run it locally -
 
-### Steps to run in development mode:-
+### Steps to run ToDo App locally:-
 
 1. Clone the repo.
 2. Make sure you have `npm` Node.js & MongoDB installed in your system.
